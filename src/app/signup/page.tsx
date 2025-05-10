@@ -29,7 +29,7 @@ const Register: React.FC = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  const [errors, setErrors] = useState({
+  const [errors, setErrors] = useState ({
     username: "",
     email: "",
     password: "",
